@@ -1,0 +1,46 @@
+/* TaskList.css */
+
+.task-list {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8eceb; /* Color de fondo: rosa claro */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    background-color: #fff; /* Color de fondo de las tareas: blanco */
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-list li button {
+    background-color: #e74c3c; /* Color del botón de eliminar: rojo */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .task-list li button:hover {
+    background-color: #c0392b; /* Color del botón al pasar el mouse: rojo más oscuro */
+  }
+  
